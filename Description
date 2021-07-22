@@ -1,0 +1,11 @@
+This Electronic Mail Box circuit generates music intimating the arrival of mail.
+The circuit uses a high bright White LED and an LDR to detect the arrival of mail in the box.
+IC NE 555 is designed as a Schmitt trigger by shorting its trigger pin 2 and threshold pin 6. 
+When the light from the LED illuminates the face of LDR, it conducts taking the pin 6 of IC low. 
+Output pin 3 then remains low inhibiting the buzzer.
+
+When a mail falls between the LED and LDR, light from LED will be blocked and the LDR becomes non conducting.
+This makes the threshold pin of IC high and its output goes high.
+The high output makes buzzer active and music will be heard. 
+The music stops only when the letter is removed from the box.
+Keep LED and LDR at the opposite sides of the box.
